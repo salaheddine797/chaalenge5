@@ -40,16 +40,19 @@ button {
     border: none;
     color: white;
     font-size: 17px;
+    
 }
 
 .btn1 {
     background-color: hsl(171, 66%, 44%);
     margin-right: 10px;
+    box-shadow: 1px 5px 14px hsl(171, 66%, 44%);
 }
 
 .btn2 {
     background-color: hsl(233, 100%, 69%);
     margin-left: 10px;
+    box-shadow: 1px 5px 4px hsl(233, 100%, 69%);
 }
 
 
@@ -59,6 +62,7 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 
 }
 
@@ -185,28 +189,96 @@ h4 {
     margin-top: 35px;
 }
 
+.images {
+
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 100px;
 
 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+}
+
+.para7 {
+    text-align: center;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 50px;
+    line-height: 27px;
+}
+
+.headersect {
+    font-size: 32px;
+    margin-bottom: -0.5px;
+    color: hsl(210, 10%, 33%);
+}
+
+.imglogo {
+    width: 50px;
+    height: 50px;
+}
+
+footer {
+
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    grid-template-areas: 
+    "imglg div1 div2 div3 . div5 "
+    ;
+    margin-left: 80px;
+    margin-bottom: 20px;
+
+}
+.imglogo {
+
+    grid-area: imglg;
+    margin-top: 15px;
+    margin-left: 30px;
+
+}
+.div1 {
+
+    grid-area: div1;
+    
+}
+
+.div2 {
+
+    grid-area: div2;
+}
+.div3 {
+
+    grid-area: div3;
+
+}
+
+.div5 {
+
+    grid-area: div5;
+
+}
 
 
+.parafooter {
+    color: hsl(210, 10%, 33%);
+    font-weight: 300;
+}
 
+.icon {
+    margin-top: 30px;
+}
 
+.middle {
+    margin: 0 18px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.imag {
+    height: 32px;
+}
