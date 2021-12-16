@@ -2,6 +2,7 @@ body {
     background-image: url(../images/bg-header-desktop.png);
     background-repeat: no-repeat;
     font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
 }
 
 .header {
@@ -43,16 +44,32 @@ button {
     
 }
 
+
+
 .btn1 {
     background-color: hsl(171, 66%, 44%);
     margin-right: 10px;
-    box-shadow: 1px 5px 14px hsl(171, 66%, 44%);
+   box-shadow: 1px 6px 9px hsla(171, 66%, 44%, 0.438);
+    border-bottom: 3px solid  hsl(171, 47%, 40%);
+}
+
+
+.btn1:hover {
+    background-color: hsl(171, 65%, 64%);
+    border-bottom: 3px solid  hsl(171, 57%, 54%);
+
 }
 
 .btn2 {
     background-color: hsl(233, 100%, 69%);
     margin-left: 10px;
-    box-shadow: 1px 5px 4px hsl(233, 100%, 69%);
+    border-bottom: 3px solid hsl(233, 40%, 55%) ;
+    box-shadow: 1px 6px 9px hsla(233, 100%, 69%, 0.445);
+}
+
+.btn2:hover {
+    background-color: hsl(233, 94%, 80%);
+    border-bottom: 3px solid hsl(233, 24%, 55%);
 }
 
 
@@ -232,8 +249,10 @@ footer {
     grid-template-areas: 
     "imglg div1 div2 div3 . div5 "
     ;
-    margin-left: 80px;
-    margin-bottom: 20px;
+    padding-left: 80px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: rgb(240, 240, 240);
 
 }
 .imglogo {
@@ -271,8 +290,23 @@ footer {
     font-weight: 300;
 }
 
+.parafooter:hover {
+
+    color: hsl(171, 66%, 44%) ;
+    cursor: pointer;
+
+
+}
+
+
+
 .icon {
     margin-top: 30px;
+}
+
+.icon:hover {
+    cursor: pointer;
+    color: hsl(171, 66%, 44%);
 }
 
 .middle {
@@ -281,4 +315,9 @@ footer {
 
 .imag {
     height: 32px;
+}
+
+svg path:hover {
+    fill: hsl(171, 66%, 44%);
+    cursor: pointer;
 }
