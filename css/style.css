@@ -263,25 +263,19 @@ footer {
 
 }
 .div1 {
-
     grid-area: div1;
-    
 }
 
 .div2 {
-
     grid-area: div2;
 }
+
 .div3 {
-
     grid-area: div3;
-
 }
 
 .div5 {
-
     grid-area: div5;
-
 }
 
 
@@ -291,11 +285,8 @@ footer {
 }
 
 .parafooter:hover {
-
     color: hsl(171, 66%, 44%) ;
     cursor: pointer;
-
-
 }
 
 
@@ -304,10 +295,6 @@ footer {
     margin-top: 30px;
 }
 
-.icon:hover {
-    cursor: pointer;
-    color: hsl(171, 66%, 44%);
-}
 
 .middle {
     margin: 0 18px;
